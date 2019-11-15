@@ -32,7 +32,7 @@ export default class Create extends Component {
                     />
                     
                     
-                    <Button color="primary">
+                    <Button color="primary" onClick={this.props.handlingSubmit}>
                         글작성
                     </Button>
                 </form>

@@ -52,14 +52,12 @@ class App extends Component {
           <Typography variant="h5" component="h3">
             멋쟁이 사자처럼 대나무숲
           </Typography>
-          <Typography component="p">
             <Form
               handlingChange={this._handlingChange}
               handlingSubmit={this._handlingSubmit}
               title={this.state.title}
               content={this.state.content}
             />
-          </Typography>
         </Paper>    
           {
             this.state.posts.map((post) =>
